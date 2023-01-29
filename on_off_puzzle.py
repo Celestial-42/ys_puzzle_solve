@@ -14,7 +14,7 @@ def insert(k,state):
 	return new_state
 
 hist_st = [copy.deepcopy(cur_state)]
-step = []
+step = [] 
 def solve(state):
 	fin_flag = False
 	for idx,st in enumerate(copy.deepcopy(state)):
