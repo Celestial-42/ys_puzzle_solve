@@ -1,3 +1,8 @@
+# 原神解谜用
+# 适合开关类型谜题，特别是无法复位，无法参照攻略时XD
+# cur_state为初始条件
+# change_bit为对应的改变位置
+
 import copy
 cur_state = [True,False,True,True,True]
 change_bit = (
